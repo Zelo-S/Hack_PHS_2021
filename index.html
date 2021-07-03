@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=stylesheet.css>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>HackPHS</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Put our logo here or something</h1>
+        <a href="#about">Link to About</a>
+        <a href="#faq">Link to FAQ</a>
+        <a href="#schedule">Link to Schedule</a>
+        <a href="#sponsors">Link to Sponsors</a>
+    </div>
+    
+    <div>
+        <h1>HackPHS 2021</h1>
+        <h2>November or something</h2>
+        <p>This is where the register thing will go</p>
+    </div>
+
+    <div>
+        <h3 id="about">About</h3>
+        <h4>What is HackPHS?</h4>
+        <p>HackPHS hosts over 300 high school students from across New Jersey to collaborate, 
+            innovate, and create in a 24-hour, student organized hackathon based at Princeton 
+            High School. Whether you're a complete beginner or an experienced hacker, HackPHS 
+            will have something for you!
+        </p>
+        <h4>Who pays for all this?</h4>
+        <p>HackPHS is completely free to everyone, thanks to our amazing sponsors!</p>
+        <h4>What is a hackathon?</h4>
+        <p>Hackathons are where creative and enthusiastic people come together to build awesome 
+            projects in a single all-nighter. With awesome workshops and incredible prizes, 
+            hackers will learn about new tech, build innovative solutions to real-world problems, 
+            and share their creation with the community, all in one event. If you are looking for a 
+            competition, a place to meet fellow hackers, or even just a place to learn how to code, 
+            hackathons are for you.
+        </p>
+    </div>  
+    
+    <div>
+        <h3 id="faq">FAQ</h3>
+        <script>
+            function dropdown1() {
+                document.getElementById("dropdownContent1").style.display="block";
+            }
+            function dropdown2() {
+                document.getElementById("dropdownContent2").style.display="block";
+            }
+            function dropdown3() {
+                document.getElementById("dropdownContent3").style.display="block";
+            }
+            function dropdown4() {
+                document.getElementById("dropdownContent4").style.display="block";
+            }
+        </script>
+        <div class="dropdown">
+            <button onclick="dropdown1()" class="dropdownButton">Who can attend this event?</button>
+            <div id="dropdownContent1" class="dropdownContent">
+            <p>Unfortunately, this event is for high school students only. If you are no longer a 
+                high schooler and would like to help out, consider applying to be a mentor.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdown2()" class="dropdownButton">How do I form a team?</button>
+            <div id="dropdownContent2" class="dropdownContent">
+            <p>Teams of up to 4 people are encouraged (though not mandatory). If you don't have a 
+                team before the event, don't worry! At the beginning of the event, there will be a 
+                team building workshop, which will be a great way to meet other enthusiastic people 
+                and even make new friends.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdown3()" class="dropdownButton">Where can I find updates on the event?</button>
+            <div id="dropdownContent3" class="dropdownContent">
+            <p>No matter if you're a first time hackathon attendee and have no idea what to do (everyone was a beginner once), 
+                or are an experienced hacker who wants to give back to the community, it is a good idea to join our Facebook event! 
+                In addition to all the important announcements and information about the event, you'll be able to find others to 
+                guide you through the hackathon process and help you develop something awesome.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdown4()" class="dropdownButton">Where can I find updates on the event?</button>
+            <div id="dropdownContent3" class="dropdownContent">
+            <p>All hackers must abide by Major League Hacking's Code of Conduct. TL;DR - all hackers should respect one another.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button onclick="dropdown4()" class="dropdownButton">Where can I find updates on the event?</button>
+            <div id="dropdownContent3" class="dropdownContent">
+            <p>hackPHS hopes to emphasize learning and collaboration more so than competition - nonetheless, there will be awesome 
+                prizes to be won for some the best hacks made during the event! The full prize list will be released later - make sure to 
+                follow us on social media to find out when!</p>
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <h3 id="schedule">Schedule</h3>
+    </div>
+
+    <div>
+        <h2 id="sponsors">Sponsors</h2>
+    </div>
+        
+</body>
+</html>
